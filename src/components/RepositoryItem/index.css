@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.repo-item {
+  height: 270px;
+  width: 200px;
+  background-color: #f8f8ff;
+  border-width: 0px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.repo-item-name {
+  font-size: 16px;
+  color: #e73959;
+}
+
+.repo-item-img {
+  height: 60px;
+  width: 60px;
+}
+.items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.star-img {
+  color: yellow;
+  height: 20px;
+  width: 20px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.forks-img {
+  color: #0284c7;
+  height: 20px;
+  width: 20px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.issues-img {
+  color: #e73959;
+  height: 20px;
+  width: 20px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
